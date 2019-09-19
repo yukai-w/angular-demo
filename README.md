@@ -1,27 +1,34 @@
-# AngularDemo
+# angular v8.x 小练习
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+初始化项目时使用过vue及react，对angular一直处于观望了解状态。
 
-## Development server
+是时候学一波了~
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 目的
 
-## Code scaffolding
+学习下angular及ts，那这个在docker中运行，顺便熟悉下docker
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### 基本
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+至少明白angular的用法，基本开发流程，以及小问题的解决
 
-## Running unit tests
+### 再想想
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+对比vue及react，angular有哪些好处？什么时候该拿出angular？
 
-## Running end-to-end tests
+### 再再想想
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+angular的内部原理是否可以借鉴？
 
-## Further help
+## todo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> 英文学习中，英文装逼点，慢慢转向英文 kk
+
+|state|things|
+|--|--|
+|❌|todo list|
+|❌|table crud|
+|❌|project process|
+|❌|....|
+

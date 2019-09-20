@@ -5,7 +5,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 // 路由配置
 const routes: Routes = [
   {
-    path: 'todo', component: TodoListComponent,
+    path: '', component: TodoListComponent,
   }
 ];
 

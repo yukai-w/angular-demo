@@ -28,7 +28,7 @@ angular的内部原理是否可以借鉴？
 |state|things|
 |--|--|
 |✅|start in docker|
-|❌|todo list|
+|✅|todo list|
 |❌|table crud|
 |❌|project process|
 |❌|....|

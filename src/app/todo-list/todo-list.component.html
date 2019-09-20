@@ -1,1 +1,15 @@
-<p>todo-list works!</p>
+<section>
+  <h2 class="section-title">TODO LIST</h2>
+  <!-- todo area -->
+  <div>
+    <input [(ngModel)]="inputValue" class="input" type="text" />
+    <button (click)="addTodo()" class="add-btn">add todo</button>
+  </div>
+  <!-- list -->
+  <ul *ngFor="let item of todoList;index as id;" class="list">
+    <li class="item">
+      {{ item }}
+      <span (click)="delete(id)">X</span>
+    </li>
+  </ul>
+</section>

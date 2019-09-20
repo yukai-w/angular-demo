@@ -6,10 +6,11 @@
     <button (click)="addTodo()" class="add-btn">add todo</button>
   </div>
   <!-- list -->
-  <ul *ngFor="let item of todoList;index as id;" class="list">
-    <li class="item">
-      {{ item }}
+  <ul class="list">
+    <li *ngFor="let item of todoList;index as id;" class="item">
+      {{ item | uppercase }}
       <span (click)="delete(id)">X</span>
     </li>
+    <div *ngIf="todoList.length === 0" style="text-align: center">没得咯~🤣</div>
   </ul>
 </section>
